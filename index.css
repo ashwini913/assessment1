@@ -1,0 +1,86 @@
+
+.nav_bar{
+position:fixed;
+background-color:white;
+top:0;
+left:0;
+ width:100px;
+ height:100%;
+ box-shadow:rgba(0, 0, 0, 0.34) 0px 12px 54px;
+}
+ul{
+    margin:0;
+    padding:0;
+    width:100px;
+    height:100vh;
+}
+ul li{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    color:rgb(100, 128, 151);
+    font-weight:bold;
+    width:100px;
+    height:80px;
+    padding:8px;
+   
+}
+.content_container{
+  width:100vw;
+  height:100vh;
+  background-color:rgba(0, 0, 0, 0.05) ;
+}
+.header{
+    height:80px;
+    background-color:white;
+}
+ul  #lesson_plan{
+   border-left:3px solid rgb(49, 158, 248); 
+   background-color:rgb(196, 224, 245);
+}
+ ul li span{
+    font-size:11px;
+ }
+ .videos{
+ margin-top:20px;
+ margin-left:130px;
+  width:20%;
+  color:rgb(113, 140, 156);
+  font-weight:bold;
+ }
+ .check_videos{
+     margin-top:50px;
+     margin-left:20%;
+ }
+ .search_bar{
+     width:85%;
+     outline:none;
+     height:35px;
+     border:1px solid white;
+     margin-bottom:25px;
+     border-radius:10px;
+     background-color:white;
+     font-weight:bold;
+ }
+ .upload{
+     width:140px;
+     height:140px;
+     background-color:white;
+     display:flex;
+     justify-content:center;
+     align-items: center;
+     font-weight:bolder;
+ }
+ .or{
+    width:100vw;
+    padding-top:40px;
+    margin-left:45%;
+    font-weight:bolder;
+ }
+ #students{
+     border-top:4px solid rgba(0,0,0,0.04);
+ }
+ #lesson_plan span{
+     color:black;
+ }
